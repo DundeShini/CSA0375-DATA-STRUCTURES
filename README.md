@@ -10,6 +10,11 @@
 6.  program for fibonacci series with recursion
 7.  program for  Array operations such as Insert, Delete and Display
 8.  program for search a number using Linear Search method 
+9.  program for binary search
+10. program for linked list operations
+11. program for push pop and peek
+12. program for merge sort
+13. 
 
 
 
