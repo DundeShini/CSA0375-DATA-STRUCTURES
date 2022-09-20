@@ -2,6 +2,7 @@
 
 *programs*
 1. program for matrix multiplication
+
 #include<stdio.h>
 int main()
 {
@@ -52,7 +53,7 @@ int main()
 ![matrix multiplication output](https://user-images.githubusercontent.com/112486766/191181151-6a635022-e526-4047-bee5-6c2ef6a0b494.png)
  2. program for Odd or Even number 
     #include <stdio.h>
-int main() {
+    int main() {
     int num;
     printf("Enter an integer: ");
     scanf("%d", &num);
@@ -64,12 +65,12 @@ int main() {
         printf("%d is odd.", num);
     
     return 0;
-}
+    }
 ![even or odd output](https://user-images.githubusercontent.com/112486766/191181664-69163918-cff3-497c-b1fd-5316fddf1e09.png)
 3. program  for Factorial of a given number without using Recursion
   #include<stdio.h>    
-int main()    
-{    
+  int main()    
+ {    
  int n1=1,n2=1,n3,i,number;    
  printf("Enter the number of elements:");    
  scanf("%d",&number);    
