@@ -50,7 +50,8 @@ int main()
 	   	   }   	
 	   	   printf("\n");
 	   }
-}
+ }
+
 ![matrix multiplication output](https://user-images.githubusercontent.com/112486766/191181151-6a635022-e526-4047-bee5-6c2ef6a0b494.png)
 
 2. program for Odd or Even number 
@@ -69,7 +70,8 @@ int main()
     
     return 0;
     }
-![even or odd output](https://user-images.githubusercontent.com/112486766/191181664-69163918-cff3-497c-b1fd-5316fddf1e09.png)
+ 
+ ![even or odd output](https://user-images.githubusercontent.com/112486766/191181664-69163918-cff3-497c-b1fd-5316fddf1e09.png)
 
 3. program  for Factorial of a given number without using Recursion
  
@@ -89,7 +91,8 @@ int main()
  }  
   return 0;  
  }
- ![factorial without recursion](https://user-images.githubusercontent.com/112486766/191202736-81f7381f-c835-4f0b-bc89-e0b5c532ca88.png)
+
+![factorial without recursion](https://user-images.githubusercontent.com/112486766/191202736-81f7381f-c835-4f0b-bc89-e0b5c532ca88.png)
  
  4. program for fibonacci series without recursion
 
@@ -160,8 +163,10 @@ int main(){
     printf("%d %d ",0,1);    
     printFibonacci(n-2);//n-2 because 2 numbers are already printed    
   return 0;  
- }![fibonacci series with recursion output](https://user-images.githubusercontent.com/112486766/191200336-444b9d9f-d2f6-49b6-8a59-558153660391.png)
+ } 
+ 
+ ![fibonacci series with recursion output](https://user-images.githubusercontent.com/112486766/191200336-444b9d9f-d2f6-49b6-8a59-558153660391.png)
 
-7.
+
 
  
