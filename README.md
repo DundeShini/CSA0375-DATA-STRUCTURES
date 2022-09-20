@@ -166,6 +166,92 @@ int main(){
  } 
  
  ![fibonacci series with recursion output](https://user-images.githubusercontent.com/112486766/191200336-444b9d9f-d2f6-49b6-8a59-558153660391.png)
+ 
+ 7. program for  Array operations such as Insert, Delete and Display
+ 
+ #include <stdio.h>
+int main()
+{
+int i,n,pos,ele,c,position,arr[100];
+printf("Enter array size:");
+scanf("%d",&n);
+printf("Enter elements:");
+for(i = 0; i < n; i++)
+{
+scanf("%d",&arr[i]);
+}
+printf("Enter the position to be inserted:");
+scanf("%d",&pos);
+printf("Enter the element to be inserted:");
+scanf("%d",&ele);
+if(pos > n)
+printf("Invalid Input");
+else
+for(i=n-1;i>=pos-1;i--)
+arr[i+1] = arr[i];
+arr[pos-1] = ele;
+printf("Array after insertion is:\n");
+for (i = 0; i <= n; i++)
+printf("%d\n", arr[i]);
+printf("Enter the position to be deleted:");
+scanf("%d",&position);
+if (position > n+1)
+printf("\nDeletion not possible.\n");
+else
+for(c=position-1;c<n-1;c++)
+arr[c] = arr[c+1];
+printf("\nArray after deletion :\n");
+for(c=0;c<n-1;c++)
+printf("%d\n", arr[c]);
+printf("\nEnter element :");
+scanf("%d", &ele);
+for(c = 0; c < n ; c++)
+{
+if(arr[c] == ele)
+{
+printf("\nElement found\n");
+}
+}
+return 0;
+}
+
+![insert delete search output](https://user-images.githubusercontent.com/112486766/191207471-a38c79c3-2df0-47eb-b04b-6483a8714ffd.png)
+
+8. program for search a number using Linear Search method
+
+#include <stdio.h>
+int main()
+{
+ int array[100], search, c, n;
+ printf("Enter number of elements in array\n");
+ scanf("%d", &n);
+ printf("Enter %d integer(s)\n", n);
+ for (c = 0; c < n; c++)
+ scanf("%d", &array[c]);
+ printf("Enter a number to search\n");
+ scanf("%d", &search);
+ for (c = 0; c < n; c++)
+ {
+ if (array[c] == search) 
+ {
+ printf("%d is present at location %d.\n", search, c+1);
+ break;
+ }
+ }
+ if (c == n)
+ printf("%d isn't present in the array.\n", search);
+ return 0;
+}
+
+![linear search output](https://user-images.githubusercontent.com/112486766/191208412-79866db4-d827-4a61-a110-841752e0c7e6.png)
+
+
+
+
+
+
+
+
 
 
 
