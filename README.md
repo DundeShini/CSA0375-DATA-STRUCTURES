@@ -21,6 +21,8 @@
 17. program for shortest path dijkstras algorithm
 18. program for hashing using linear probing
 19. program for quick sort
+20. program for heap sort
+21. program for kruskals algorithm
 
 
 
