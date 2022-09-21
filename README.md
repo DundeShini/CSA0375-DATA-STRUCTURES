@@ -20,7 +20,7 @@
 16. program for insertion sort
 17. program for shortest path dijkstras algorithm
 18. program for hashing using linear probing
-
+19. program for quick sort
 
 
 
