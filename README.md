@@ -24,6 +24,7 @@
 20. program for heap sort
 21. program for kruskals algorithm
 22. program for prims algorithm
+23. program for queue operations
 
 
 
