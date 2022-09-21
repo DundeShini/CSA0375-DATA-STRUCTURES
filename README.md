@@ -23,6 +23,7 @@
 19. program for quick sort
 20. program for heap sort
 21. program for kruskals algorithm
+22. program for prims algorithm
 
 
 
