@@ -14,7 +14,8 @@
 10. program for linked list operations
 11. program for push pop and peek
 12. program for merge sort
-13. 
+13. proghram for avl tree
+14. program for stack notation
 
 
 
